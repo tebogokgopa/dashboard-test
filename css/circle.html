@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>circle test</title>
+    <style>
+        body{
+            padding: 0;
+            margin: 0;
+        }
+        .skillsmainbox{
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            margin-top: 10vh;
+        }
+        .box{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            height: 200px;
+            width: 200px;
+            border-radius: 5px;
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 
+                        0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        }
+        .circle{
+            height: 120px;
+            width: 120px;
+            border-radius: 50%;
+            background: linear-gradient(-50deg, rgb(212, 12, 135) 65%, rgb(232, 232, 236) 3%, rgb(241, 246, 247) 0%);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 
+                        0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+        }
+        .innercircle{
+            border-radius: 50%;
+            height: 100px;
+            width: 100px;
+            background-color: navy;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 
+                        0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        }
+        .percentage{
+            font-size: 20px;
+            font-weight: 500;
+            color: white;
+        }
+        .skilltext{
+            font-size: 20px;
+            font-weight: 600;
+            color: Navy;
+        }
+    </style>
+</head>
+<body>
+    <div class="skillsmainbox">
+        <div class="box">
+            <div class="circle">
+                <div class="innercircle">
+                    <div class="percentage">75 %</div>
+                </div>
+            </div>
+            <h1 class="skilltext">C/C++</h1>
+        </div>
+        <div class="box">
+            <div class="circle">
+                <div class="innercircle">
+                    <div class="percentage">50 %</div>
+                </div>
+            </div>
+            <h1 class="skilltext">Python</h1>
+        </div>
+        <div class="box">
+            <div class="circle">
+                <div class="innercircle">
+                    <div class="percentage">75 %</div>
+                </div>
+            </div>
+            <h1 class="skilltext">SQL</h1>
+        </div>
+        <div class="box">
+            <div class="circle">
+                <div class="innercircle">
+                    <div class="percentage">65 %</div>
+                </div>
+            </div>
+            <h1 class="skilltext">Rust</h1>
+        </div>
+        <div class="box">
+            <div class="circle">
+                <div class="innercircle">
+                    <div class="percentage">50 %</div>
+                </div>
+            </div>
+            <h1 class="skilltext">Java</h1>
+        </div>
+        <div class="box">
+            <div class="circle">
+                <div class="innercircle">
+                    <div class="percentage">85 %</div>
+                </div>
+            </div>
+            <h1 class="skilltext">Facilitation</h1>
+        </div>
+    </div>  
+</body>
+</html>
